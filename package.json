@@ -1,0 +1,21 @@
+{
+  "name": "playwright_explore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {"test": "npx playwright test"},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velislava-dimitrova/playwright_explore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/velislava-dimitrova/playwright_explore/issues"
+  },
+  "homepage": "https://github.com/velislava-dimitrova/playwright_explore#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.20.0"
+  }
+}
