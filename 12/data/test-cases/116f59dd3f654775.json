@@ -1,0 +1,194 @@
+{
+  "uid" : "116f59dd3f654775",
+  "name" : "basic test 1",
+  "fullName" : "basic test 1",
+  "historyId" : "chromium tests/test.spec.ts basic test 1",
+  "time" : {
+    "start" : 1647464975302,
+    "stop" : 1647464976115,
+    "duration" : 813
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1647464975303,
+        "stop" : 1647464975511,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1647464975465,
+          "stop" : 1647464975511,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto",
+      "time" : {
+        "start" : 1647464975515,
+        "stop" : 1647464975962,
+        "duration" : 447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1647464975964,
+        "stop" : 1647464976016,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1647464976016,
+        "stop" : 1647464976116,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1647464976108,
+          "stop" : 1647464976115,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test.spec.ts"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Story 2"
+  }, {
+    "name" : "label1",
+    "value" : "labelValue"
+  }, {
+    "name" : "AS_ID",
+    "value" : "id1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "65658e38f32ca1fc",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/11//#testresult/65658e38f32ca1fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647464304438,
+          "stop" : 1647464305350,
+          "duration" : 912
+        }
+      }, {
+        "uid" : "aba5d7f9b7799522",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/10//#testresult/aba5d7f9b7799522",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647451107190,
+          "stop" : 1647451107960,
+          "duration" : 770
+        }
+      }, {
+        "uid" : "fbb6c3dfea219d63",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/9//#testresult/fbb6c3dfea219d63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647449043347,
+          "stop" : 1647449044196,
+          "duration" : 849
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "116f59dd3f654775.json",
+  "parameterValues" : [ ]
+}
