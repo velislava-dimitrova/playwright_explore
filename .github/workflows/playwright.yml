@@ -25,6 +25,14 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+    - uses: actions/upload-artifact@v2
+      if: always()
+      with:
+        name: allure-results
+        path: allure-results/
+        retention-days: 5
+    - name: copy file
+      run: cp categories.json categories.json allure-results/
     - uses: actions/upload-artifact@main
       with:
         name: allure-results
