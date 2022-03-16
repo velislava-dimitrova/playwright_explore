@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://velislava-dimitrova.github.io/playwright_explore",
+  "buildOrder" : 15,
+  "buildName" : "GitHub Actions Run #1995316476",
+  "buildUrl" : "https://github.com/velislava-dimitrova/playwright_explore/actions/runs/1995316476",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/15/"
+} ]
