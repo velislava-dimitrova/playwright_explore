@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "cddc919e080dc70a",
+        "parentUid" : "db840af781d8c9d925a954b72515c7fa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647449042026,
+          "stop" : 1647449042880,
+          "duration" : 854
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db840af781d8c9d925a954b72515c7fa"
+    }, {
+      "name" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+      "children" : [ {
+        "name" : "basic test 2",
+        "uid" : "4d47f59ed8b6da1c",
+        "parentUid" : "2558ef076fae4b1edad13347e8483094",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647449046556,
+          "stop" : 1647449047408,
+          "duration" : 852
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2558ef076fae4b1edad13347e8483094"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
