@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "4accd89f99408519",
+        "parentUid" : "8982ecf306a8543a0c2c5f6b263c3e2d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647536604697,
+          "stop" : 1647536604697,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8982ecf306a8543a0c2c5f6b263c3e2d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
