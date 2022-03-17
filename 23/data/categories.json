@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "f5b618c7959a7b84",
+        "parentUid" : "db840af781d8c9d925a954b72515c7fa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647548962896,
+          "stop" : 1647548963957,
+          "duration" : 1061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db840af781d8c9d925a954b72515c7fa"
+    }, {
+      "name" : "Did not teardown test scope",
+      "children" : [ {
+        "name" : "basic test 3",
+        "uid" : "badc0b5b78ecda32",
+        "parentUid" : "ca42ba97ea36d458260aa141a48f99e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647548968295,
+          "stop" : 1647548968295,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca42ba97ea36d458260aa141a48f99e2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Infrastructure problems",
+    "children" : [ {
+      "name" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+      "children" : [ {
+        "name" : "basic test 2",
+        "uid" : "bb8c677475221422",
+        "parentUid" : "da38015fb963e811edfe1e2b4d4fcb4d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647548967469,
+          "stop" : 1647548968293,
+          "duration" : 824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da38015fb963e811edfe1e2b4d4fcb4d"
+    } ],
+    "uid" : "280a13d31e49bebc16a96b51fd556410"
+  } ],
+  "name" : "categories"
+}

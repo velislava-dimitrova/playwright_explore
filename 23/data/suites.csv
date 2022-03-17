@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Mar 17 20:29:28 GMT 2022","Thu Mar 17 20:29:28 GMT 2022","0","chromium","tests/test.spec.ts","","","","basic test 3",""
+"failed","Thu Mar 17 20:29:27 GMT 2022","Thu Mar 17 20:29:28 GMT 2022","824","chromium","tests/test.spec.ts","","","","basic test 2",""
+"failed","Thu Mar 17 20:29:22 GMT 2022","Thu Mar 17 20:29:23 GMT 2022","1061","chromium","tests/test.spec.ts","","","","basic test",""
+"passed","Thu Mar 17 20:29:24 GMT 2022","Thu Mar 17 20:29:25 GMT 2022","825","chromium","tests/test.spec.ts","","","","basic test 1",""
