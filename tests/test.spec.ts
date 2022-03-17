@@ -59,7 +59,7 @@ test('basic test 3', async ({ page }) => {
     page.locator('#userName').fill('vili')
 
 });
-test.beforeAll(async () => {
+test.afterAll(async () => {
     console.log('After tests');
     // const fs = require('fs');
     fs.copyFileSync('categories.json','./allure-results/categories.json')
