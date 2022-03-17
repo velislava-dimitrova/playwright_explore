@@ -1,0 +1,44 @@
+{
+  "uid" : "7cd365d460ec89d4",
+  "name" : "basic test 2",
+  "fullName" : "basic test 2",
+  "historyId" : "chromium tests/test.spec.ts basic test 2",
+  "time" : {
+    "start" : 1647548581712,
+    "stop" : 1647548581712,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+  "statusTrace" : "\n    at Object.copyFileSync (fs.js:2061:3)\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:65:8",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cd365d460ec89d4.json",
+  "parameterValues" : [ ]
+}
