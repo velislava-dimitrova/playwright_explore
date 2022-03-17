@@ -1,0 +1,223 @@
+{
+  "uid" : "b3c41930ac7313ff",
+  "name" : "basic test",
+  "fullName" : "basic test",
+  "historyId" : "chromium tests/test.spec.ts basic test",
+  "time" : {
+    "start" : 1647516471845,
+    "stop" : 1647516471845,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+  "statusTrace" : "\n    at Object.copyFileSync (fs.js:2061:3)\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:65:8",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b37bbf4f98efefd",
+      "status" : "failed",
+      "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+      "time" : {
+        "start" : 1647516471388,
+        "stop" : 1647516471388,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d8d9bba04bdd02be",
+      "status" : "failed",
+      "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+      "time" : {
+        "start" : 1647516470920,
+        "stop" : 1647516470920,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 10,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "716d1baff6e078af",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/18//#testresult/716d1baff6e078af",
+        "status" : "failed",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516461067,
+          "stop" : 1647516461067,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "deac2163378f241d",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/17//#testresult/deac2163378f241d",
+        "status" : "failed",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516104377,
+          "stop" : 1647516104377,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1e9d3dd11c975827",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/16//#testresult/1e9d3dd11c975827",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647468945343,
+          "stop" : 1647468946154,
+          "duration" : 811
+        }
+      }, {
+        "uid" : "ff61bc6993d27d33",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/15//#testresult/ff61bc6993d27d33",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647467748332,
+          "stop" : 1647467749157,
+          "duration" : 825
+        }
+      }, {
+        "uid" : "81f187e53bce4156",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/13//#testresult/81f187e53bce4156",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647465557080,
+          "stop" : 1647465557896,
+          "duration" : 816
+        }
+      }, {
+        "uid" : "f7e857ed6325aa4f",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/12//#testresult/f7e857ed6325aa4f",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647464974129,
+          "stop" : 1647464974903,
+          "duration" : 774
+        }
+      }, {
+        "uid" : "9dc67a2f3c4a4a25",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/11//#testresult/9dc67a2f3c4a4a25",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647464303017,
+          "stop" : 1647464303958,
+          "duration" : 941
+        }
+      }, {
+        "uid" : "b930bbe8d887bbb9",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/10//#testresult/b930bbe8d887bbb9",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647451106012,
+          "stop" : 1647451106792,
+          "duration" : 780
+        }
+      }, {
+        "uid" : "cddc919e080dc70a",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/9//#testresult/cddc919e080dc70a",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647449042026,
+          "stop" : 1647449042880,
+          "duration" : 854
+        }
+      }, {
+        "uid" : "ef44866a2bb38b5e",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/8//#testresult/ef44866a2bb38b5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647447277058,
+          "stop" : 1647447278517,
+          "duration" : 1459
+        }
+      }, {
+        "uid" : "2eddda74106c9fc1",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/7//#testresult/2eddda74106c9fc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647381228550,
+          "stop" : 1647381229696,
+          "duration" : 1146
+        }
+      }, {
+        "uid" : "5c2ec0343eaabffb",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/6//#testresult/5c2ec0343eaabffb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647380644626,
+          "stop" : 1647380645582,
+          "duration" : 956
+        }
+      }, {
+        "uid" : "5d0aae8e8049c50f",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/5//#testresult/5d0aae8e8049c50f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647380451483,
+          "stop" : 1647380452281,
+          "duration" : 798
+        }
+      }, {
+        "uid" : "7089ffb1f793c260",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/4//#testresult/7089ffb1f793c260",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647379985776,
+          "stop" : 1647379986862,
+          "duration" : 1086
+        }
+      }, {
+        "uid" : "3b398db2344de2c9",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/3//#testresult/3b398db2344de2c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647379015802,
+          "stop" : 1647379016669,
+          "duration" : 867
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b3c41930ac7313ff.json",
+  "parameterValues" : [ ]
+}
