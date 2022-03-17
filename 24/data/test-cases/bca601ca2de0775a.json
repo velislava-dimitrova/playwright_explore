@@ -1,0 +1,152 @@
+{
+  "uid" : "bca601ca2de0775a",
+  "name" : "basic test 2",
+  "fullName" : "basic test 2",
+  "historyId" : "chromium tests/test.spec.ts basic test 2",
+  "time" : {
+    "start" : 1647549494767,
+    "stop" : 1647549495349,
+    "duration" : 582
+  },
+  "status" : "failed",
+  "statusMessage" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+  "statusTrace" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:41:15",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+    "statusTrace" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:41:15",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1647549494768,
+        "stop" : 1647549494814,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1647549494781,
+          "stop" : 1647549494814,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto",
+      "time" : {
+        "start" : 1647549494815,
+        "stop" : 1647549495224,
+        "duration" : 409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([src=\"img/logos/Browsers.png1\"])",
+      "time" : {
+        "start" : 1647549495225,
+        "stop" : 1647549495349,
+        "duration" : 124
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1647549495225,
+        "stop" : 1647549495224,
+        "duration" : -1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1647549495340,
+          "stop" : 1647549495339,
+          "duration" : -1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test.spec.ts"
+  }, {
+    "name" : "severity",
+    "value" : "high"
+  }, {
+    "name" : "story",
+    "value" : "Story 3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bca601ca2de0775a.json",
+  "parameterValues" : [ ]
+}

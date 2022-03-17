@@ -1,0 +1,44 @@
+{
+  "uid" : "6dd9295e1216bd7d",
+  "name" : "basic test 3",
+  "fullName" : "basic test 3",
+  "historyId" : "chromium tests/test.spec.ts basic test 3",
+  "time" : {
+    "start" : 1647549495350,
+    "stop" : 1647549495350,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "Did not teardown test scope",
+  "statusTrace" : "\n    at runMicrotasks (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6dd9295e1216bd7d.json",
+  "parameterValues" : [ ]
+}
