@@ -1,0 +1,185 @@
+{
+  "uid" : "f31f645c6e7c0352",
+  "name" : "basic test 2",
+  "fullName" : "basic test 2",
+  "historyId" : "chromium tests/test.spec.ts basic test 2",
+  "time" : {
+    "start" : 1647537655536,
+    "stop" : 1647537655536,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+  "statusTrace" : "\n    at Object.copyFileSync (fs.js:2061:3)\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:65:8",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test.spec.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1e88ac5b1c63b2f6",
+      "status" : "skipped",
+      "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+      "time" : {
+        "start" : 1647537654288,
+        "stop" : 1647537654288,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "df33dd97cd326ad",
+      "status" : "skipped",
+      "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+      "time" : {
+        "start" : 1647537653045,
+        "stop" : 1647537653045,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "ddad3935063c2ed8",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/20//#testresult/ddad3935063c2ed8",
+        "status" : "skipped",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647536604703,
+          "stop" : 1647536604703,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "daf0088f48080a69",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/19//#testresult/daf0088f48080a69",
+        "status" : "skipped",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516471850,
+          "stop" : 1647516471850,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5466a06b11303e05",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/18//#testresult/5466a06b11303e05",
+        "status" : "skipped",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516461878,
+          "stop" : 1647516461878,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "167ad168218b19ed",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/17//#testresult/167ad168218b19ed",
+        "status" : "skipped",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516105297,
+          "stop" : 1647516105297,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ba84540807a12a90",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/16//#testresult/ba84540807a12a90",
+        "status" : "failed",
+        "statusDetails" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+        "time" : {
+          "start" : 1647468950261,
+          "stop" : 1647468951142,
+          "duration" : 881
+        }
+      }, {
+        "uid" : "6a99f4fef5c00fa7",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/15//#testresult/6a99f4fef5c00fa7",
+        "status" : "failed",
+        "statusDetails" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+        "time" : {
+          "start" : 1647467752751,
+          "stop" : 1647467753620,
+          "duration" : 869
+        }
+      }, {
+        "uid" : "5f04303d8ee023be",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/13//#testresult/5f04303d8ee023be",
+        "status" : "failed",
+        "statusDetails" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+        "time" : {
+          "start" : 1647465561325,
+          "stop" : 1647465562156,
+          "duration" : 831
+        }
+      }, {
+        "uid" : "8f1e3b30ef0c9cb7",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/12//#testresult/8f1e3b30ef0c9cb7",
+        "status" : "failed",
+        "statusDetails" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+        "time" : {
+          "start" : 1647464978212,
+          "stop" : 1647464978965,
+          "duration" : 753
+        }
+      }, {
+        "uid" : "43a652e553f45b50",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/11//#testresult/43a652e553f45b50",
+        "status" : "failed",
+        "statusDetails" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+        "time" : {
+          "start" : 1647464307973,
+          "stop" : 1647464308998,
+          "duration" : 1025
+        }
+      }, {
+        "uid" : "c7231a852095da0",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/10//#testresult/c7231a852095da0",
+        "status" : "failed",
+        "statusDetails" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+        "time" : {
+          "start" : 1647451110116,
+          "stop" : 1647451110892,
+          "duration" : 776
+        }
+      }, {
+        "uid" : "4d47f59ed8b6da1c",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/9//#testresult/4d47f59ed8b6da1c",
+        "status" : "failed",
+        "statusDetails" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+        "time" : {
+          "start" : 1647449046556,
+          "stop" : 1647449047408,
+          "duration" : 852
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f31f645c6e7c0352.json",
+  "parameterValues" : [ ]
+}
