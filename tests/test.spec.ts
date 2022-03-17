@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { Label } from 'allure-js-commons';
 import { allure } from 'allure-playwright'
+import fs from 'fs';
 
 test('basic test', async ({ page }) => {
     allure.severity('critical')
@@ -17,7 +18,7 @@ test('basic test', async ({ page }) => {
 test('basic test 1', async ({ page }) => {
     allure.severity('normal')
     allure.story('Story 2')
-    let label:Label = {name:'label1',value:'labelValue'}
+    let label: Label = { name: 'label1', value: 'labelValue' }
     allure.label(label)
     allure.id('id1')
     await page.goto('');
@@ -38,5 +39,28 @@ test('basic test 2', async ({ page }) => {
 
     const firstName = page.locator('[src="img/logos/Browsers.png1"]');
     firstName.click();
-    
+
 });
+
+test('basic test 3', async ({ page }) => {
+    allure.severity('high')
+    allure.story('Story 4')
+    await page.goto('https://demoqa.com/text-box');
+
+    // console.log(page.frames());
+
+    const firstName = page.locator('#userForm #userName-label');
+    firstName.click();
+    console.log(await firstName.isVisible())
+    console.log(await firstName.textContent())
+
+    await expect(await firstName.textContent()).toBe('Full Name')
+
+    page.locator('#userName').fill('vili')
+
+});
+test.afterAll(async () => {
+    console.log('After tests');
+    // const fs = require('fs');
+    fs.copyFileSync('categories.json','./allure-results/categories.json')
+  });
