@@ -34,7 +34,8 @@ jobs:
         path: playwright-report/
         retention-days: 5
     - name: copy file
-      run: find . -name categories.json
+      run: find . -name categories.json | echo ${path}
+      
     - uses: actions/upload-artifact@v2
       if: always()
       with:
