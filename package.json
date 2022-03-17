@@ -6,8 +6,7 @@
   "scripts": {
     "test": "npx playwright test",
     "allure:generate": "npx allure generate ./allure-results --clean",
-    "allure:open":"npx allure open ./allure-report",
-    "posttest": "npx allure generate ./allure-results --clean"
+    "allure:open":"npx allure open ./allure-report"
   },
   "repository": {
     "type": "git",
