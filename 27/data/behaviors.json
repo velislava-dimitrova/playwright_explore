@@ -1,0 +1,90 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Configure Allure Report",
+    "children" : [ {
+      "name" : "Configure Allure report",
+      "uid" : "92f8c275ce98390b",
+      "parentUid" : "a0938a675cbbd0be59bb3f0e2ca4e580",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647640153484,
+        "stop" : 1647640153706,
+        "duration" : 222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a0938a675cbbd0be59bb3f0e2ca4e580"
+  }, {
+    "name" : "Story 1",
+    "children" : [ {
+      "name" : "basic test",
+      "uid" : "729b260e1cea7760",
+      "parentUid" : "aba1d9ac71f8b2a30b41cd14f0f01a22",
+      "status" : "failed",
+      "time" : {
+        "start" : 1647640156286,
+        "stop" : 1647640157073,
+        "duration" : 787
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "aba1d9ac71f8b2a30b41cd14f0f01a22"
+  }, {
+    "name" : "Story 2",
+    "children" : [ {
+      "name" : "basic test 1",
+      "uid" : "c9bcf2e19a8370a0",
+      "parentUid" : "1473bfc2c47b9aa9494a57add38a92d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647640157491,
+        "stop" : 1647640158288,
+        "duration" : 797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1473bfc2c47b9aa9494a57add38a92d2"
+  }, {
+    "name" : "Story 3",
+    "children" : [ {
+      "name" : "basic test 2",
+      "uid" : "b809e5290b8fd75e",
+      "parentUid" : "a4dbcd7898c6b6b3c84877b120d585e9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1647640160450,
+        "stop" : 1647640161307,
+        "duration" : 857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a4dbcd7898c6b6b3c84877b120d585e9"
+  }, {
+    "name" : "Story 4",
+    "children" : [ {
+      "name" : "basic test 3",
+      "uid" : "22714d538d039e87",
+      "parentUid" : "aa55877961293d32b7db25deb3706459",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647640161737,
+        "stop" : 1647640163936,
+        "duration" : 2199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "aa55877961293d32b7db25deb3706459"
+  } ],
+  "name" : "behaviors"
+}

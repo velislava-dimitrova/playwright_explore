@@ -1,0 +1,185 @@
+{
+  "uid" : "92f8c275ce98390b",
+  "name" : "Configure Allure report",
+  "fullName" : "Configure Allure report",
+  "historyId" : "chromium tests/configure.spec.ts Configure Allure report",
+  "time" : {
+    "start" : 1647640153484,
+    "stop" : 1647640153706,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1647640153485,
+        "stop" : 1647640153702,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check if the results folder exists and create it if it doesn't",
+      "time" : {
+        "start" : 1647640153703,
+        "stop" : 1647640153704,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Copy the categories file",
+      "time" : {
+        "start" : 1647640153704,
+        "stop" : 1647640153704,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check if environment properties file exists and delete it ",
+      "time" : {
+        "start" : 1647640153704,
+        "stop" : 1647640153705,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Create the environment properties file",
+      "time" : {
+        "start" : 1647640153705,
+        "stop" : 1647640153705,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1647640153706,
+        "stop" : 1647640153706,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5ed86faac759e648",
+      "name" : "stdout",
+      "source" : "5ed86faac759e648.txt",
+      "type" : "text/plain",
+      "size" : 31
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/configure.spec.ts"
+  }, {
+    "name" : "severity",
+    "value" : "low"
+  }, {
+    "name" : "story",
+    "value" : "Configure Allure Report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "97705c2c3327f853",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/26//#testresult/97705c2c3327f853",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647639514697,
+          "stop" : 1647639514943,
+          "duration" : 246
+        }
+      }, {
+        "uid" : "dc736a74bfb21865",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/25//#testresult/dc736a74bfb21865",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647637307317,
+          "stop" : 1647637307494,
+          "duration" : 177
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "92f8c275ce98390b.json",
+  "parameterValues" : [ ]
+}

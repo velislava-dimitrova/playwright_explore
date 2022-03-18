@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Mar 18 21:49:13 GMT 2022","Fri Mar 18 21:49:13 GMT 2022","222","chromium","tests/configure.spec.ts","","","","Configure Allure report",""
+"passed","Fri Mar 18 21:49:17 GMT 2022","Fri Mar 18 21:49:18 GMT 2022","797","chromium","tests/test.spec.ts","","","","basic test 1",""
+"passed","Fri Mar 18 21:49:21 GMT 2022","Fri Mar 18 21:49:23 GMT 2022","2199","chromium","tests/test.spec.ts","","","","basic test 3",""
+"failed","Fri Mar 18 21:49:16 GMT 2022","Fri Mar 18 21:49:17 GMT 2022","787","chromium","tests/test.spec.ts","","","","basic test",""
+"failed","Fri Mar 18 21:49:20 GMT 2022","Fri Mar 18 21:49:21 GMT 2022","857","chromium","tests/test.spec.ts","","","","basic test 2",""
