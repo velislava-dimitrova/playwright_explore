@@ -4,7 +4,7 @@
     "matchedStatuses": ["skipped"] 
   },
   {
-    "name": "Infrastructure problems",
+    "name": "Test defects",
     "matchedStatuses": ["broken", "failed"],
     "messageRegex": ".*Target closed.*" 
   },
