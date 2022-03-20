@@ -1,0 +1,406 @@
+{
+  "uid" : "9fcdaceae00994f4",
+  "name" : "basic test",
+  "fullName" : "basic test",
+  "historyId" : "chromium tests/test.spec.ts basic test",
+  "time" : {
+    "start" : 1647778693441,
+    "stop" : 1647778694608,
+    "duration" : 1167
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+  "statusTrace" : "\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:15:26",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+    "statusTrace" : "\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:15:26",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1647778693441,
+        "stop" : 1647778693762,
+        "duration" : 321
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1647778693688,
+          "stop" : 1647778693761,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto",
+      "time" : {
+        "start" : 1647778693764,
+        "stop" : 1647778694384,
+        "duration" : 620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1647778694386,
+        "stop" : 1647778694471,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBe",
+      "time" : {
+        "start" : 1647778694473,
+        "stop" : 1647778694476,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1647778694477,
+        "stop" : 1647778694607,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1647778694589,
+          "stop" : 1647778694605,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d6930ed1765b7556",
+      "name" : "trace",
+      "source" : "d6930ed1765b7556.ZIP",
+      "type" : "application/zip",
+      "size" : 1011782
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test.spec.ts"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "Story 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "2d7284e1cac2757b",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+      "time" : {
+        "start" : 1647778692110,
+        "stop" : 1647778692991,
+        "duration" : 881
+      }
+    }, {
+      "uid" : "abce372277f0aac6",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+      "time" : {
+        "start" : 1647778690845,
+        "stop" : 1647778691654,
+        "duration" : 809
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 19,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "729b260e1cea7760",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/27//#testresult/729b260e1cea7760",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647640156286,
+          "stop" : 1647640157073,
+          "duration" : 787
+        }
+      }, {
+        "uid" : "a60f2bc455566e5f",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/26//#testresult/a60f2bc455566e5f",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647639517540,
+          "stop" : 1647639518360,
+          "duration" : 820
+        }
+      }, {
+        "uid" : "7685213afcd7f187",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/25//#testresult/7685213afcd7f187",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647637309681,
+          "stop" : 1647637310427,
+          "duration" : 746
+        }
+      }, {
+        "uid" : "77ba767cfb6c219",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/24//#testresult/77ba767cfb6c219",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647549492605,
+          "stop" : 1647549493429,
+          "duration" : 824
+        }
+      }, {
+        "uid" : "f5b618c7959a7b84",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/23//#testresult/f5b618c7959a7b84",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647548962896,
+          "stop" : 1647548963957,
+          "duration" : 1061
+        }
+      }, {
+        "uid" : "4dfeb718d7a62650",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/22//#testresult/4dfeb718d7a62650",
+        "status" : "failed",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647548583312,
+          "stop" : 1647548583312,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "543cfb2ff4eaa485",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/21//#testresult/543cfb2ff4eaa485",
+        "status" : "failed",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647537654663,
+          "stop" : 1647537654663,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4accd89f99408519",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/20//#testresult/4accd89f99408519",
+        "status" : "failed",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647536604697,
+          "stop" : 1647536604697,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b3c41930ac7313ff",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/19//#testresult/b3c41930ac7313ff",
+        "status" : "failed",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516471845,
+          "stop" : 1647516471845,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "716d1baff6e078af",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/18//#testresult/716d1baff6e078af",
+        "status" : "failed",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516461067,
+          "stop" : 1647516461067,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "deac2163378f241d",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/17//#testresult/deac2163378f241d",
+        "status" : "failed",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516104377,
+          "stop" : 1647516104377,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1e9d3dd11c975827",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/16//#testresult/1e9d3dd11c975827",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647468945343,
+          "stop" : 1647468946154,
+          "duration" : 811
+        }
+      }, {
+        "uid" : "ff61bc6993d27d33",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/15//#testresult/ff61bc6993d27d33",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647467748332,
+          "stop" : 1647467749157,
+          "duration" : 825
+        }
+      }, {
+        "uid" : "81f187e53bce4156",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/13//#testresult/81f187e53bce4156",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647465557080,
+          "stop" : 1647465557896,
+          "duration" : 816
+        }
+      }, {
+        "uid" : "f7e857ed6325aa4f",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/12//#testresult/f7e857ed6325aa4f",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647464974129,
+          "stop" : 1647464974903,
+          "duration" : 774
+        }
+      }, {
+        "uid" : "9dc67a2f3c4a4a25",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/11//#testresult/9dc67a2f3c4a4a25",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647464303017,
+          "stop" : 1647464303958,
+          "duration" : 941
+        }
+      }, {
+        "uid" : "b930bbe8d887bbb9",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/10//#testresult/b930bbe8d887bbb9",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647451106012,
+          "stop" : 1647451106792,
+          "duration" : 780
+        }
+      }, {
+        "uid" : "cddc919e080dc70a",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/9//#testresult/cddc919e080dc70a",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+        "time" : {
+          "start" : 1647449042026,
+          "stop" : 1647449042880,
+          "duration" : 854
+        }
+      }, {
+        "uid" : "ef44866a2bb38b5e",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/8//#testresult/ef44866a2bb38b5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647447277058,
+          "stop" : 1647447278517,
+          "duration" : 1459
+        }
+      }, {
+        "uid" : "2eddda74106c9fc1",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/7//#testresult/2eddda74106c9fc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647381228550,
+          "stop" : 1647381229696,
+          "duration" : 1146
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9fcdaceae00994f4.json",
+  "parameterValues" : [ ]
+}

@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Mar 15 21:53:48 GMT 2022","Tue Mar 15 21:53:49 GMT 2022","1146","chromium","tests/test.spec.ts","","","","basic test",""

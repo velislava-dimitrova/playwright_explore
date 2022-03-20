@@ -1,0 +1,335 @@
+{
+  "uid" : "c1a76b0808702b65",
+  "name" : "basic test 1",
+  "fullName" : "basic test 1",
+  "historyId" : "chromium tests/test.spec.ts basic test 1",
+  "time" : {
+    "start" : 1647778695097,
+    "stop" : 1647778696262,
+    "duration" : 1165
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1647778695098,
+        "stop" : 1647778695443,
+        "duration" : 345
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1647778695367,
+          "stop" : 1647778695443,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto",
+      "time" : {
+        "start" : 1647778695446,
+        "stop" : 1647778696059,
+        "duration" : 613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1647778696063,
+        "stop" : 1647778696137,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1647778696137,
+        "stop" : 1647778696262,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1647778696251,
+          "stop" : 1647778696261,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test.spec.ts"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Story 2"
+  }, {
+    "name" : "label1",
+    "value" : "labelValue"
+  }, {
+    "name" : "AS_ID",
+    "value" : "id1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "c9bcf2e19a8370a0",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/27//#testresult/c9bcf2e19a8370a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647640157491,
+          "stop" : 1647640158288,
+          "duration" : 797
+        }
+      }, {
+        "uid" : "8c14f030eb2ccd58",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/26//#testresult/8c14f030eb2ccd58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647639518781,
+          "stop" : 1647639519584,
+          "duration" : 803
+        }
+      }, {
+        "uid" : "ed7ba6c115b960a",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/25//#testresult/ed7ba6c115b960a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647637310813,
+          "stop" : 1647637311556,
+          "duration" : 743
+        }
+      }, {
+        "uid" : "b288095c50b2991f",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/24//#testresult/b288095c50b2991f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647549493888,
+          "stop" : 1647549494767,
+          "duration" : 879
+        }
+      }, {
+        "uid" : "7ebd8ee36c6e602e",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/23//#testresult/7ebd8ee36c6e602e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647548964401,
+          "stop" : 1647548965226,
+          "duration" : 825
+        }
+      }, {
+        "uid" : "38e4373a552f8edc",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/22//#testresult/38e4373a552f8edc",
+        "status" : "skipped",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647548584190,
+          "stop" : 1647548584190,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fcccac581e4d7f43",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/21//#testresult/fcccac581e4d7f43",
+        "status" : "skipped",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647537655536,
+          "stop" : 1647537655536,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "575e45e9738ac1bb",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/20//#testresult/575e45e9738ac1bb",
+        "status" : "skipped",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647536604703,
+          "stop" : 1647536604703,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5d58ff643c4d32ce",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/19//#testresult/5d58ff643c4d32ce",
+        "status" : "skipped",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516471849,
+          "stop" : 1647516471849,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ac09c8a6d9f3a7a",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/18//#testresult/ac09c8a6d9f3a7a",
+        "status" : "skipped",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516461877,
+          "stop" : 1647516461877,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b0b9f82315e2a889",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/17//#testresult/b0b9f82315e2a889",
+        "status" : "skipped",
+        "statusDetails" : "ENOENT: no such file or directory, copyfile 'categories.json' -> './allure-results/categories.json'",
+        "time" : {
+          "start" : 1647516105297,
+          "stop" : 1647516105297,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fc808e918d3321c6",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/16//#testresult/fc808e918d3321c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647468946594,
+          "stop" : 1647468948034,
+          "duration" : 1440
+        }
+      }, {
+        "uid" : "8bed4e1a3be39ace",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/15//#testresult/8bed4e1a3be39ace",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647467749600,
+          "stop" : 1647467750439,
+          "duration" : 839
+        }
+      }, {
+        "uid" : "38033126c7cb7208",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/13//#testresult/38033126c7cb7208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647465558307,
+          "stop" : 1647465559114,
+          "duration" : 807
+        }
+      }, {
+        "uid" : "116f59dd3f654775",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/12//#testresult/116f59dd3f654775",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647464975302,
+          "stop" : 1647464976115,
+          "duration" : 813
+        }
+      }, {
+        "uid" : "65658e38f32ca1fc",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/11//#testresult/65658e38f32ca1fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647464304438,
+          "stop" : 1647464305350,
+          "duration" : 912
+        }
+      }, {
+        "uid" : "aba5d7f9b7799522",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/10//#testresult/aba5d7f9b7799522",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647451107190,
+          "stop" : 1647451107960,
+          "duration" : 770
+        }
+      }, {
+        "uid" : "fbb6c3dfea219d63",
+        "reportUrl" : "https://velislava-dimitrova.github.io/playwright_explore/9//#testresult/fbb6c3dfea219d63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647449043347,
+          "stop" : 1647449044196,
+          "duration" : 849
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c1a76b0808702b65.json",
+  "parameterValues" : [ ]
+}

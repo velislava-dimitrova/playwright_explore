@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "9fcdaceae00994f4",
+        "parentUid" : "db840af781d8c9d925a954b72515c7fa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647778693441,
+          "stop" : 1647778694608,
+          "duration" : 1167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db840af781d8c9d925a954b72515c7fa"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Infrastructure problems",
+    "children" : [ {
+      "name" : "locator.click: Target closed\n=========================== logs ===========================\nwaiting for selector \"[src=\"img/logos/Browsers.png1\"]\"\n============================================================",
+      "children" : [ {
+        "name" : "basic test 2",
+        "uid" : "a48b00f8b2dc6949",
+        "parentUid" : "da38015fb963e811edfe1e2b4d4fcb4d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647778698855,
+          "stop" : 1647778699727,
+          "duration" : 872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da38015fb963e811edfe1e2b4d4fcb4d"
+    } ],
+    "uid" : "280a13d31e49bebc16a96b51fd556410"
+  } ],
+  "name" : "categories"
+}
