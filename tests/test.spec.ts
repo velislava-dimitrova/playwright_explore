@@ -59,3 +59,10 @@ test('basic test 3', async ({ page }) => {
     page.locator('#userName').fill('vili')
 
 });
+
+test.skip('basic test 5', async ({ page }) => {
+    allure.severity('low')
+    allure.story('Story 1')
+    await page.goto('');
+
+});
