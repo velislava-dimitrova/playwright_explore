@@ -25,13 +25,13 @@ jobs:
       run: npx playwright install --with-deps
     #- name: make dir
     #  run: mkdir allure-results
-  run tests:
+  run-tests:
     runs-on: ubuntu-latest
     steps:
     - name: Run Playwright tests
       run: npm test
 
-  generate report:
+  generate-report:
     runs-on: ubuntu-latest
     steps:
     - name: generate report
