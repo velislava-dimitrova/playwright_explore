@@ -31,7 +31,7 @@ test('basic test 1', async ({ page }) => {
 
 
 test('basic test 2', async ({ page }) => {
-    allure.severity('high')
+    allure.severity('blocker')
     allure.story('Story 3')
     await page.goto('');
 
@@ -43,7 +43,7 @@ test('basic test 2', async ({ page }) => {
 });
 
 test('basic test 3', async ({ page }) => {
-    allure.severity('high')
+    allure.severity('minor')
     allure.story('Story 4')
     await page.goto('https://demoqa.com/text-box');
 
