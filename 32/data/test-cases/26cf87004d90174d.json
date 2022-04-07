@@ -1,0 +1,185 @@
+{
+  "uid" : "26cf87004d90174d",
+  "name" : "basic test",
+  "fullName" : "basic test",
+  "historyId" : "chromium tests/test.spec.ts basic test",
+  "time" : {
+    "start" : 1649364397225,
+    "stop" : 1649364397916,
+    "duration" : 691
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+  "statusTrace" : "\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:15:26",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+    "statusTrace" : "\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:15:26",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1649364397226,
+        "stop" : 1649364397275,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1649364397240,
+          "stop" : 1649364397274,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto",
+      "time" : {
+        "start" : 1649364397276,
+        "stop" : 1649364397764,
+        "duration" : 488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1649364397767,
+        "stop" : 1649364397821,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBe",
+      "time" : {
+        "start" : 1649364397822,
+        "stop" : 1649364397824,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1649364397824,
+        "stop" : 1649364397916,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1649364397904,
+          "stop" : 1649364397915,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "97ccef2a94b1ebc3",
+      "name" : "trace",
+      "source" : "97ccef2a94b1ebc3.ZIP",
+      "type" : "application/zip",
+      "size" : 943001
+    }, {
+      "uid" : "4076cd986aa5d4c6",
+      "name" : "stdout",
+      "source" : "4076cd986aa5d4c6.txt",
+      "type" : "text/plain",
+      "size" : 41
+    }, {
+      "uid" : "afd87f501c985255",
+      "name" : "stdout",
+      "source" : "afd87f501c985255.txt",
+      "type" : "text/plain",
+      "size" : 54
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test.spec.ts"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "Story 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26cf87004d90174d.json",
+  "parameterValues" : [ ]
+}

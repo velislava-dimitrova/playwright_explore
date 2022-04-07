@@ -1,0 +1,51 @@
+[ {
+  "uid" : "5d8f13ba7a57949e",
+  "name" : "basic test",
+  "time" : {
+    "start" : 1649364399500,
+    "stop" : 1649364400209,
+    "duration" : 709
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "2de96005b0435774",
+  "name" : "basic test 3",
+  "time" : {
+    "start" : 1649364404645,
+    "stop" : 1649364406922,
+    "duration" : 2277
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "3ca6302101c2f52c",
+  "name" : "basic test 2",
+  "time" : {
+    "start" : 1649364403460,
+    "stop" : 1649364404211,
+    "duration" : 751
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "410c7e111d6ce095",
+  "name" : "basic test 1",
+  "time" : {
+    "start" : 1649364400615,
+    "stop" : 1649364401388,
+    "duration" : 773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1853de817521dcb4",
+  "name" : "Configure Allure report",
+  "time" : {
+    "start" : 1649364397016,
+    "stop" : 1649364397217,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

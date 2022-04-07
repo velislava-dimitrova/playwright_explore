@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "undefined" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "https://playwright.dev/URL=https://velislava-dimitrova.github.io/playwright_explore" ],
+  "name" : "BaseURL"
+} ]

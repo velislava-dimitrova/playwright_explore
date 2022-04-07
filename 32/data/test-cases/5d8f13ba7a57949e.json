@@ -1,0 +1,197 @@
+{
+  "uid" : "5d8f13ba7a57949e",
+  "name" : "basic test",
+  "fullName" : "basic test",
+  "historyId" : "chromium tests/test.spec.ts basic test",
+  "time" : {
+    "start" : 1649364399500,
+    "stop" : 1649364400209,
+    "duration" : 709
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+  "statusTrace" : "\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:15:26",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+    "statusTrace" : "\n    at /home/runner/work/playwright_explore/playwright_explore/tests/test.spec.ts:15:26",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1649364399501,
+        "stop" : 1649364399709,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1649364399679,
+          "stop" : 1649364399709,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto",
+      "time" : {
+        "start" : 1649364399712,
+        "stop" : 1649364400067,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1649364400069,
+        "stop" : 1649364400114,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBe",
+      "time" : {
+        "start" : 1649364400115,
+        "stop" : 1649364400120,
+        "duration" : 5
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1649364400121,
+        "stop" : 1649364400209,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1649364400199,
+          "stop" : 1649364400209,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "862fbbdd0a988026",
+      "name" : "trace",
+      "source" : "862fbbdd0a988026.ZIP",
+      "type" : "application/zip",
+      "size" : 941793
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/test.spec.ts"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "Story 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "bdc6ea8920876ca4",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+      "time" : {
+        "start" : 1649364398338,
+        "stop" : 1649364399122,
+        "duration" : 784
+      }
+    }, {
+      "uid" : "26cf87004d90174d",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: \"f\"\nReceived: \"dfdf\"",
+      "time" : {
+        "start" : 1649364397225,
+        "stop" : 1649364397916,
+        "duration" : 691
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5d8f13ba7a57949e.json",
+  "parameterValues" : [ ]
+}
